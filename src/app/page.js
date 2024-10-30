@@ -6,7 +6,7 @@ import Work from "@/components/work-card";
 
 const articles = [
     {
-        date: "December 1, 2021",
+        date: "October 1, 2021",
         title: 'Lorem ipsum dolor sit amet consectetur',
         description: 'Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum',
         link: '#'
