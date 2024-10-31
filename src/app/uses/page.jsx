@@ -12,6 +12,7 @@ function SectionTitle({ title, description }) {
             </h2>
             <p className="text-gray-600 dark:text-gray-400 text-base md:text-lg leading-6">
                 {description}
+                    
             </p>
         </div>
     );
@@ -54,7 +55,7 @@ export default function Uses() {
             <div className="w-full md:w-2/3">
                 <SectionTitle
                     title="Software I use, gadgets I love, and other things I recommend."
-                    description="Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut et massa mi."
+                    description="Here you can find something interesting!"
                 />
             </div>
 

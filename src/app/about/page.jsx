@@ -10,12 +10,14 @@ export default async function Page() {
             {/* Left Side: Text Content */}
             <div className="flex flex-col justify-start items-start gap-6 w-full md:w-[464px] order-1 md:order-1">
                 <h1 className="text-4xl font-bold">
-                    I’m Jane. I live in New York City, where I develop the future.
+                    I’m Jefferson. 
+                    <p>I live in Salt Lake City, where I develop the future.</p>
                 </h1>
-                {Array.from({ length: 4 }, (_, index) => (
+                {Array.from({ length: 1 }, (_, index) => (
                     <p key={index} className="text-gray-600 dark:text-gray-400 text-sm leading-6">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi...
+                        Bachelor's degree holder in the top 10% of the Administration and International Business program from Universidad Privada del Norte. Known for strong analytical skills, leadership, and teamwork abilities, alongside a high capacity to perform under pressure. Responsible, organized, and grounded in a solid ethical foundation. Currently pursuing an associate degree in IT at Ensign College, with a keen interest in expanding knowledge and tackling new challenges. Highly skilled in programming with Java and proficient in JavaScript.
                     </p>
+
                 ))}
             </div>
 
@@ -24,7 +26,7 @@ export default async function Page() {
                 {/* Image at the top in mobile view */}
                 <img
                     className="w-full h-[452px] object-cover rounded-lg"
-                    src="src/image/profileimg.jpeg"
+                    src="/MyPhoto.png"
                     alt="About Image"
                 />
 
@@ -36,11 +38,11 @@ export default async function Page() {
                             <FontAwesomeIcon icon={faXTwitter} className="text-gray-900 dark:text-white w-5 h-5" />
                             <span className="text-gray-900 dark:text-white text-sm">Follow me on X</span>
                         </a>
-                        <a href="https://github.com/jane" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                        <a href="https://github.com/jga863" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                             <FontAwesomeIcon icon={faGithub} className="text-gray-900 dark:text-white w-5 h-5" />
                             <span className="text-gray-900 dark:text-white text-sm">Follow me on GitHub</span>
                         </a>
-                        <a href="https://linkedin.com/in/jane" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                        <a href="https://www.linkedin.com/in/jefferson-asencio-rios/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                             <FontAwesomeIcon icon={faLinkedin} className="text-gray-900 dark:text-white w-5 h-5" />
                             <span className="text-gray-900 dark:text-white text-sm">Follow me on LinkedIn</span>
                         </a>
@@ -49,7 +51,7 @@ export default async function Page() {
                     {/* Email Section */}
                     <div className="flex items-center border-t border-gray-700 pt-4">
                         <FontAwesomeIcon icon={faEnvelope} className="text-gray-900 dark:text-white w-5 h-5" />
-                        <span className="ml-2 text-gray-900 dark:text-white text-sm">jane@email.com</span>
+                        <span className="ml-2 text-gray-900 dark:text-white text-sm">asencioriosj@gmail.com</span>
                     </div>
                 </div>
             </div>

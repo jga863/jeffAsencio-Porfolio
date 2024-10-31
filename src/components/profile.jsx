@@ -10,7 +10,7 @@ const Profile = () => {
             <div className="w-16 h-16 p-2 bg-opacity-90 bg-white rounded-full flex justify-center items-center">
                 <img
                     className="w-15 h-15 rounded-full"
-                    src="https://via.placeholder.com/60x60"
+                    src="/FPhoto60x60.png"
                     alt="Profile"
                 />
             </div>
@@ -18,11 +18,11 @@ const Profile = () => {
                 Software engineer, father, and believer
             </div>
             <div className="text-gray-600 dark:text-gray-400 text-base leading-7">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..
+                Top 10% graduate in Administration and International Business from Universidad Privada del Norte, with strong analytical, leadership, and teamwork skills. Currently pursuing an associate degree in IT at Ensign College, with expertise in Java and proficiency in JavaScript.
             </div>
             <div className="bg-gray-100 p-2 rounded-md flex gap-3">
                 {/* LinkedIn */}
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/jefferson-asencio-rios/" target="_blank" rel="noopener noreferrer">
                     <button className="w-6 h-6 flex items-center justify-center focus:outline-none">
                         <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5 text-gray-600" />
                     </button>
@@ -36,7 +36,7 @@ const Profile = () => {
                 </a>
 
                 {/* GitHub */}
-                <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/jga863" target="_blank" rel="noopener noreferrer">
                     <button className="w-6 h-6 flex items-center justify-center focus:outline-none">
                         <FontAwesomeIcon icon={faGithub} className="w-5 h-5 text-gray-600" />
                     </button>

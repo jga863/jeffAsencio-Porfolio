@@ -6,21 +6,21 @@ import Work from "@/components/work-card";
 
 const articles = [
     {
-        date: "October 1, 2021",
-        title: 'Lorem ipsum dolor sit amet consectetur',
-        description: 'Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum',
+        date: "October 29, 2024",
+        title: 'My Portfolio',
+        description: 'This is the compelling story of how I developed my portfolio, driven by a class assignment that challenged me to showcase my skills and creativity.',
         link: '#'
     },
     {
-        date: "December 1, 2021",
-        title: 'Lorem ipsum dolor sit amet consectetur',
-        description: 'Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum',
+        date: "September 15, 2024",
+        title: 'JavaScript: My learning experience',
+        description: 'During this short period, I have tried to learn JavaScript. It has been more difficult than I thought, although little by little, I am finding the light.',
         link: '#'
     },
     {
-        date: "December 1, 2021",
-        title: 'Lorem ipsum dolor sit amet consectetur',
-        description: 'Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum',
+        date: "August 30, 2024",
+        title: 'My first BIG project: LISA',
+        description: 'I used to work in the library during my time at college; this led me to the great idea of ​​creating my own system',
         link: '#'
     }
 ]
@@ -34,11 +34,11 @@ export default async function Home() {
             },
             {
                 name: 'CSS',
-                percent: 30,
+                percent: 75,
             },
             {
                 name: 'HTML',
-                percent: 10,
+                percent: 85,
             },
         ],
     };
